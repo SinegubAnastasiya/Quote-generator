@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #837FB1;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 14.4px;
+    font: 400 48px Roboto;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.modal {
+    border-radius: 21px;
+    background: var(--neutral-700, #212931);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.20);
+    width: 700px;
+    height: 359px;
+    margin-top: 36px;
+    margin-left: 211px;
+}
+
+.modal .balls-img {
+    background-image: url(./assets/Group\ 15.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 57px;
+    height: 13px;
+    position: relative;
+    top: 18px;
+    left: 23px;
+}
+
+.modal p {
+    color: #FFF;
+    text-align: center;
+    font: 700 26px Roboto;
+    margin-top: 136px;
+}
+
+.wrapper .border {
+    background-image: url(./assets/Rectangle\ 18.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 360px;
+    position: absolute;
+    top: 30px;
+    left: 270px;
+    z-index: -1;
+}
